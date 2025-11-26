@@ -31,9 +31,103 @@ nav a {
     padding: 5px 16px;
 }
 
+#banner {
+    margin: 1px;
+}
+
 #banner img {
     display: block;
     width: 99%;
     margin: auto;
-    
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.secao {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-circulo {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 45%;
+}
+
+#img-oval {
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 40%;
+}
+
+.card {
+    width: 380px;
+    background-color: #e27bb1;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #55111c;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    .img-oval {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .secao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-oval {
+        width: 260px;
+        height: 260px;
+    }
+
+    .card {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-oval {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
 }
