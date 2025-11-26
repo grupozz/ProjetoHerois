@@ -102,12 +102,16 @@ main {
     text-align: justify;
 }
 
-@media (max-width: 1024px) {
-    .img-oval {
-        width: 300px;
-        height: 300px;
-    }
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #96305A;
+    color: #fff;
+    padding: 30px;
+}
 
+@media (max-width: 1024px) {
     .card {
         width: 350px;
     }
@@ -118,23 +122,12 @@ main {
         flex-direction: column;
         text-align: center;
     }
-
-    .img-oval {
-        width: 260px;
-        height: 260px;
-    }
-
     .card {
         width: 95%;
     }
 }
 
 @media (max-width: 480px) {
-    .img-oval {
-        width: 200px;
-        height: 200px;
-    }
-
     .card h2 {
         font-size: 22px;
     }
