@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #55111c;
+    color: #FF9FC5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: #FF9FC5;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+#login {
+    background: #D9D9D9;
+    border-radius: 10px;
+    color: #55111c;
+    padding: 5px 16px;
+}
