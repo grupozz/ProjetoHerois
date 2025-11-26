@@ -109,6 +109,11 @@ footer {
     background: #96305A;
     color: #fff;
     padding: 30px;
+    margin-top: 70px; 
+}
+
+footer img {
+    padding: 10px;
 }
 
 @media (max-width: 1024px) {
